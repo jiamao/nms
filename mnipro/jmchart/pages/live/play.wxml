@@ -1,0 +1,6 @@
+<!--pages/live/index.wxml-->
+<view class="page-body">
+  <view class="page-section tc">
+    <live-player id="player" src="{{play_url}}" bindstatechange="statechange" binderror="error" autoplay="autoplay" style="width: 100%; height: 500px;" />
+  </view>
+</view>
